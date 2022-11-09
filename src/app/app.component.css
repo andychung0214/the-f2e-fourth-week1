@@ -1,0 +1,185 @@
+.home-content{
+  /* width: 1280px; */
+  /* height: 768px; */
+  background-image: url('/assets/images/background.jpg');
+
+  /* background-repeat:repeat-x; */
+}
+
+.wrapper {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.hexSchoolArea {
+  margin-top: 14%;
+}
+
+.btnStyle {
+  width: 109px;
+  height: 46px;
+  left: 419px;
+  top: 177px;
+
+  background: #951205;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+.labelStyle {
+  width: 51px;
+  height: 40px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  color:#FFF;
+}
+
+.labelPrize {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #3C221B;
+
+}
+
+.parallaxScrollingArea {
+  margin-top: 2%;
+}
+
+.absoluteArea {
+  position: absolute;
+  z-index: 24;
+  /* top: 4%; */
+  left: 16%;
+}
+
+.pdfArea {
+  position: relative;
+  left:32%;
+  top:4%;
+}
+
+.imgVendetta {
+  position: absolute;
+  z-index: 99;
+  /* top: 4%; */
+  left: 40%;
+  top: 8%;
+}
+
+.bountyArea {
+  position: absolute;
+  z-index: 99;
+  /* top: 4%; */
+  left: 64%;
+  top: 4%;
+}
+
+.floatArea{
+  position: relative;
+  z-index: 98;
+
+}
+
+.raceArea{
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsorCorp {
+
+  /* width: 100vw; */
+  background-color: #FFF;
+  /* height: 96px; */
+}
+
+.pText {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+
+  color: #3C221B;
+}
+
+.main-nav {
+  display: flex;
+  /* flex-direction:unset; */
+  /* margin: 0 auto; */
+  justify-content: space-between;
+}
+
+.main-nav li {
+  margin-left: 24px;
+}
+
+.prize-nav {
+  /* display: grid;
+  gap:26px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 50px; */
+  display: flex;
+  /* flex-direction:unset; */
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+
+.prize-nav {
+  margin-left: 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.prize-nav {
+  display: flex;
+}
+
+
+.finishPrize {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+
+  color: #3C221B;
+  margin-top: 6%;
+  margin-bottom: 16%;
+}
+
+.goodThing {
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 103px;
+  text-align: center;
+
+  color: #3C221B;
+}
+
+.plzClick {
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 103px;
+  text-align: center;
+
+  color: #951205;
+}
