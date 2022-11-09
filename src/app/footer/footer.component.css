@@ -1,0 +1,66 @@
+.page-footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content:space-between; */
+
+
+  /* position: absolute; */
+  /* width: 1280px;
+  height: 366px; */
+  left: 0px;
+  top: 6889px;
+
+  background: #3C221B;
+}
+
+.wrapper {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0 4%;
+  /* height: 62px; */
+  background: #38241B;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12%;
+
+}
+
+
+.sponsorCorp{
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 86px;
+
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.first-sponsor-corp{
+  width: 400px;
+  height: 100vh;
+  /* max-width: 100%; */
+  background: url('/assets/images/block-studio.png');
+}
+
+.footerText{
+  /* width: 261px; */
+  height: 23px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  /* White */
+
+  color: #FFFFFF;
+  text-align: center;
+
+}
