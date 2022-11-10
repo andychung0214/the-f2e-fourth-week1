@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700;900&family=Noto+Serif+TC:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap");
 
 @font-face {
   font-family: "AR JULIAN";
@@ -13,6 +15,12 @@
 	padding: 0;
 	list-style: none;
 	font-family: 'Noto Sans TC', sans-serif;
+}
+
+:root {
+  --borwn-color: #38241b;
+  --red-color: #951205;
+  --white-color: #ffffff;
 }
 
 html {
