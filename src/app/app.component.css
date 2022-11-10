@@ -39,6 +39,62 @@
   color:#FFF;
 }
 
+.home {
+  height: 100%;
+  background: url("../assets/images/newspaperVendetta.png") no-repeat center;
+  background-size: 100% 100%;
+  padding: 10.1rem 4rem 2.2rem;
+  position: relative;
+}
+
+.cover-top {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.cover-right {
+  position: absolute;
+  z-index: 10;
+  width: 95.15vw;
+  height: 140vh;
+  left: 36.09%;
+  top: 39.86%;
+}
+
+.cover-left {
+  position: absolute;
+  z-index: 30;
+  width: 73.59vw;
+  height: 146vh;
+  left: -19.37%;
+  top: 36.25%;
+}
+
+.cover-mouse {
+  width: 3rem;
+  height: 4.4rem;
+  border: 2px solid black;
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.cover {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 200;
+}
+
+
 .labelPrize {
   font-family: 'Noto Sans TC';
   font-style: normal;
@@ -184,6 +240,49 @@
   color: #951205;
 }
 
+
+.describe {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #3C221B;
+}
+
+.money {
+  width: 232.41px;
+  height: 61.67px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 61.67px;
+  color: var(--white-color);
+  background-color: var(--red-color);
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+}
+
+.content .pic-face .text .money {
+  font-family: "AR JULIAN";
+  font-style: normal;
+  font-weight: 5;
+  font-size: 5.6rem;
+  line-height: 6.289rem;
+  color: var(--red-color);
+}
+
 /************live-open sytle start******************/
 
 .live-open {
@@ -220,6 +319,11 @@
   top: 50%;
   right: 30%;
 }
+
+/* #live {
+  display: flex
+} */
+
 /************live-open sytle end******************/
 
 /************live sytle start******************/

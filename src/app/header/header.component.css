@@ -71,3 +71,17 @@
 
   color: #FFFFFF;
 }
+
+
+.sign-up {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  background: var(--red-color);
+  padding: 0.65rem 5.15rem;
+  border-radius: 4rem;
+
+  /* padding: 5.63px 25px; */
+}
