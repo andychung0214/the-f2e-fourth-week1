@@ -121,7 +121,9 @@
 .pdfArea {
   position: relative;
   left:32%;
-  top:4%;
+  top:-12%;
+  z-index: 99;
+
 }
 
 .imgVendetta {
@@ -335,7 +337,8 @@
   gap: 2rem;
   margin: 0 auto;
   justify-content: center;
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  /* max-width: 100vw; */
 }
 
 #live .person .item {
@@ -348,7 +351,8 @@
   align-items: center;
   margin-top: 3.2rem;
   text-align: center;
-  max-width: 522px;
+  /* max-width: 522px; */
+  max-width: 416px;
   height: 738.5px;
   /* flex-basis: 48%; */
 }
