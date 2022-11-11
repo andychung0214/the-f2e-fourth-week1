@@ -2,22 +2,26 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /* justify-content:space-between; */
-
-
+  /* justify-content: flex-start; */
   /* position: absolute; */
-  /* width: 1280px;
-  height: 366px; */
-  left: 0px;
+  /* width: 1280px; */
+   /* width: 1900px; */
+  /* max-width: 1900px; */
+  /* height: 366px; */
+  /* left: 0px; */
+  /* top: 6889px; */
+  /* left: 0px; */
   top: 6889px;
-
+  padding: 4% 0;
+  /* margin:  0 10%; */
   background: #3C221B;
+
 }
 
 .wrapper {
   /* max-width: 1280px; */
-  margin: 0 auto;
-  padding: 0 4%;
+  /* margin: 0 auto; */
+  /* padding: 0 4%; */
   /* height: 62px; */
   background: #38241B;
 }
@@ -26,9 +30,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 12%;
-
 }
-
 
 .sponsorCorp{
   font-family: 'Noto Serif TC';
@@ -39,13 +41,6 @@
 
   color: #FFFFFF;
   text-align: center;
-}
-
-.first-sponsor-corp{
-  width: 400px;
-  height: 100vh;
-  /* max-width: 100%; */
-  background: url('/assets/images/block-studio.png');
 }
 
 .footerText{
@@ -62,5 +57,4 @@
 
   color: #FFFFFF;
   text-align: center;
-
 }

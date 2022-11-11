@@ -16,29 +16,6 @@
   margin-top: 14%;
 }
 
-.btnStyle {
-  width: 109px;
-  height: 46px;
-  left: 419px;
-  top: 177px;
-
-  background: #951205;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
-}
-
-.labelStyle {
-  width: 51px;
-  height: 40px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 40px;
-  color:#FFF;
-}
-
 .home {
   height: 100%;
   background: url("../assets/images/newspaperVendetta.png") no-repeat center;
@@ -134,14 +111,6 @@
   top: 8%;
 }
 
-.bountyArea {
-  position: absolute;
-  z-index: 99;
-  /* top: 4%; */
-  left: 64%;
-  top: 4%;
-}
-
 .floatArea{
   position: relative;
   z-index: 98;
@@ -173,12 +142,23 @@
 .main-nav {
   display: flex;
   /* flex-direction:unset; */
-  /* margin: 0 auto; */
-  justify-content: space-between;
+  margin: 0 16%;
+  flex-direction: row;
+  justify-content: center;
+  /* margin: 16px; */
+  /* padding: 1% 0; */
 }
 
 .main-nav li {
-  margin-left: 24px;
+  margin-left: 4%;
+}
+
+.main-nav li img {
+  width: 80%;
+}
+
+.brTitle {
+  margin: 2% 0;
 }
 
 .prize-nav {
@@ -204,6 +184,12 @@
 
 .prize-nav {
   display: flex;
+}
+
+.knowLive {
+
+  border: none;
+  background: #DAC9AD;
 }
 
 
@@ -256,8 +242,7 @@
   color: #3C221B;
 }
 
-.money {
-  width: 232.41px;
+/* .money {
   height: 61.67px;
   font-family: "Noto Sans TC";
   font-style: normal;
@@ -274,59 +259,17 @@
   left: 50%;
   bottom: 5%;
   transform: translateX(-50%);
-}
+} */
 
-.content .pic-face .text .money {
+/* .content .pic-face .text .money {
   font-family: "AR JULIAN";
   font-style: normal;
   font-weight: 5;
   font-size: 5.6rem;
   line-height: 6.289rem;
   color: var(--red-color);
-}
-
-/************live-open sytle start******************/
-
-.live-open {
-  min-height: 100vh;
-  position: relative;
-}
-
-.beans.four {
-  top: 10%;
-  left: 10%;
-}
-
-.live-open p {
-  width: 504px;
-  font-family: "Noto Serif TC";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 7.2rem;
-  line-height: 10.3rem;
-  text-align: center;
-  color: var(--borwn-color);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.live-open span {
-  color: var(--red-color);
-}
-
-.live-open .animation-container {
-  position: absolute;
-  top: 50%;
-  right: 30%;
-}
-
-/* #live {
-  display: flex
 } */
 
-/************live-open sytle end******************/
 
 /************live sytle start******************/
 
@@ -386,31 +329,33 @@
   font-family: "Noto Serif TC";
   font-style: normal;
   color: var(--borwn-color);
-  line-height: 6.2rem;
+  line-height: 3rem;
   font-weight: 900;
 }
 
 #live .person .item:nth-child(1) .describe {
-  font-size: 5.7rem;
+  font-size: 3.2rem;
 }
 
 #live .person .item:nth-child(2) .describe {
-  font-size: 4.9rem;
+  font-size: 3.2rem;
+  /* white-space: nowrap; */
+  /* margin-top: 4%; */
 }
 
 #live .person .item:nth-child(3) .describe {
-  font-size: 4.6rem;
+  font-size: 3.2rem;
 }
 
 #live .person .item:nth-child(4) .describe {
-  font-size: 4.4rem;
+  font-size: 3.2rem;
 }
 
 #live .item .time {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 2.4rem;
   line-height: 6.7rem;
   color: var(--borwn-color);
 }
@@ -423,7 +368,7 @@
   height: 66px;
   position: absolute;
   left: 50%;
-  bottom: 12.12%;
+  bottom: 14.12%;
   transform: translateX(-50%);
 }
 
@@ -431,10 +376,137 @@
   font-family: "Noto Sans TC";
   font-style: normal;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.6rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   /* or 130% */
   color: var(--white-color);
   text-align: center;
 }
 /************live sytle end******************/
+
+/* nav content */
+
+.content-left {
+  margin-left: -58%;
+}
+
+.home .content {
+  background: url("../assets/images/backgroundVendetta.png") no-repeat;
+  background-size: 100% 100%;
+  /* max-width: 1213px; */
+  max-width: 80vw;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5.1rem 5.9rem 8.5rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.home .content-left .title h1 {
+  white-space: nowrap;
+  margin-left: -2%;
+
+  font-family: "AR JULIAN";
+  font-style: normal;
+  font-weight: 5;
+  font-size: 8rem;
+  line-height: 9rem;
+  color: var(--borwn-color);
+}
+
+.home .content-left .title .th {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.6rem;
+  color: var(--white-color);
+  background: var(--red-color);
+  height: 4.6rem;
+  padding: 0 2.8rem;
+  text-align: center;
+  border-radius: 1.4rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+  margin-left: 1.6rem;
+}
+
+.home .content-left > p:nth-child(2) {
+  font-family: "Noto Serif TC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.2rem;
+  line-height: 6rem;
+  color: var(--borwn-color);
+  max-width: 343px;
+  margin-top: 3.6rem;
+}
+
+.home .content-left > p:nth-child(3) {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  color: var(--borwn-color);
+  max-width: 270px;
+  margin-top: 1.5rem;
+}
+
+.content-right {
+  align-self: center;
+}
+
+.home .content-right p {
+  font-family: "AR JULIAN";
+  font-weight: 5;
+  font-size: 2.8rem;
+  line-height: 3.1rem;
+  color: var(--borwn-color);
+}
+
+.home .content-right .num {
+  font-family: "AR JULIAN";
+  font-weight: 5;
+  font-size: 5rem;
+  line-height: 5.615rem;
+}
+
+.home .content-right .unit {
+  font-family: "AR JULIAN";
+  font-weight: 5;
+  font-size: 2rem;
+  line-height: 2.246rem;
+}
+
+.content .pic-face {
+  position: absolute;
+  bottom: -0.5rem;
+  transform: translate(-45%, 110%);
+  width: 672.27px;
+  height: 562px;
+  left: 50%;
+}
+
+.content .pic-face .text {
+  width: 672.27px;
+  position: absolute;
+  bottom: 2rem;
+  left: 6%;
+  font-family: "AR JULIAN";
+  font-style: normal;
+  font-weight: 5;
+  font-size: 1.8rem;
+  line-height: 3.1rem;
+  color: var(--white-color);
+}
+
+.content .pic-face .text .money {
+  font-family: "AR JULIAN";
+  font-style: normal;
+  font-weight: 5;
+  font-size: 3.6rem;
+  line-height: 6.289rem;
+  color: var(--red-color);
+}

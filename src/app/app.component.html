@@ -16,7 +16,7 @@
   <section class="home">
     <div class="content">
       <div class="pic-face">
-        <img src="/assets/images/vendetta.png" />
+        <img src="/assets/images/vendetta.png" alt="vendetta" />
         <div class="text">
           個人獎<span class="money">$3,000</span>　團體獎<span class="money">$10,000</span>
         </div>
@@ -55,38 +55,10 @@
 
   <div class="aos-all">
 
-
     <div class="text-center">
 
-      <!-- <div class="vendettaArea">
-        <div class="descVendetta">
-          <h1>
-            THE F2E
-            <div class="btnStyle">
-              <label class="labelStyle" for="">4th</label>
-            </div>
-          </h1>
-
-        </div>
-        <div class="absoluteArea">
-          <img src="/assets/images/newspaperVendetta.png" alt="">
-        </div>
-        <div class="floatArea">
-          <img src="/assets/images/backgroundVendetta.png" alt="">
-        </div>
-
-        <div class="imgVendetta">
-          <img src="/assets/images/vendetta.png" alt="">
-        </div>
-
-      </div> -->
-
-      <div class="hexSchoolArea">
+      <div id="hexSchool" class="hexSchoolArea">
         <img src="/assets/images/HexSchool.png" alt="">
-      </div>
-
-      <div class="bountyArea">
-        <img src="/assets/images/bounty.png" alt="">
       </div>
 
       <div>
@@ -111,7 +83,9 @@
         <img src="/assets/images/parallaxScrolling3.png" alt="">
       </div>
 
-      <img src="/assets/images/race.png" alt="">
+      <div class="brTitle">
+        <img id="race" src="/assets/images/race.png" alt="">
+      </div>
       <div class="raceArea">
         <div>
           <img src="/assets/images/raceTimeline1.png" alt="">
@@ -125,13 +99,15 @@
           <p class="pText">
             初選：將由六角學院前端、UI 評審進行第一波篩選，並於 12/5（五）公布初選佳作名單
             。
+          </p>
+          <p class="pText">
             決選：由三大企業針對該企業主題進行入圍獎最後篩選，並於 12/23（五）公布企業得獎名單。
           </p>
         </div>
 
       </div>
 
-      <div class="prize">
+      <div class="brTitle">
         <img src="/assets/images/prize.png" alt="">
 
       </div>
@@ -142,14 +118,12 @@
             <li data-id="4" class="aos-item" data-aos="fade-down" data-aos-delay="600" data-aos-easing="ease-in-sine">
               <div class="pic">
                 <img src="/assets/images/groupPrize.png" alt="" />
-                <div class="money">$10,000 (3名)</div>
               </div>
               <div class="describe">每個關卡各 1 組</div>
             </li>
             <li data-id="5" class="aos-item" data-aos="fade-down" data-aos-delay="600" data-aos-easing="ease-in-sine">
               <div class="pic">
                 <img src="/assets/images/personPrize.png" alt="" />
-                <div class="money">$3000 (6名)</div>
               </div>
               <div class="describe">
                 每個關卡各 2 名，<br />
@@ -159,7 +133,6 @@
             <li data-id="6" class="aos-item" data-aos="fade-down" data-aos-delay="300" data-aos-easing="ease-in-sine">
               <div class="pic">
                 <img src="/assets/images/shortlistedPrize.png" alt="" />
-                <div class="money">數位獎狀(60名)</div>
               </div>
               <div class="describe">
                 每個關卡個人組十位<br />
@@ -173,12 +146,15 @@
       <div class="finishPrize">
         以上皆提供完賽數位獎狀<br>
       </div>
+
       <div class="goodThing">
         意想不到的好康<br>
 
       </div>
-      <div class="plzClick">
-        請點擊
+      <br>
+      <br>
+      <div>
+        <button class="knowLive" (click)="prizeClick()"><h1 class="plzClick">請點擊</h1></button>
         <!-- <ng-lottie
             [options]="loadingOpts"
             width="100%"
@@ -186,11 +162,15 @@
           ></ng-lottie> -->
         <!-- <main lottie [options]="options" (animationCreated)="animationCreated($event)"></main> -->
       </div>
+      <br>
+      <br>
+      <br>
+      <br>
 
-      <div id="live">
+      <div id="live" [style.display]="isDisplay ? 'inline' : 'none'">
 
-        <div class="title">
-          <h1>各界大神直播分享</h1>
+        <div class="brTitle">
+          <img src="/assets/images/live.png" alt="各界大神直播分享" />
         </div>
         <div class="person">
           <!-------------- person item1 -------------->
@@ -205,6 +185,7 @@
             <p class="time">11/03(四)20:00 ~ 21:30</p>
           </div>
           <!-------------- person item2 -------------->
+
           <div class="item">
             <div class="name">
               <p>

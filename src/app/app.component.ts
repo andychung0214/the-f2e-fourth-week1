@@ -14,6 +14,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 export class AppComponent implements OnInit  {
   title = 'the-f2e-fourth-week1';
   loadingOpts: any;
+  isDisplay = false;
   // scrollBox =  new TimelineMax({paused: true, reversed: true,
   //   scrollTrigger: {
   //     trigger: '.box',
@@ -50,5 +51,8 @@ export class AppComponent implements OnInit  {
   //   this.scrollBox.to('.box', { y: 0, opacity: 1 });
   //   this.scrollBox.play();
   // }
+    prizeClick(){
+      this.isDisplay = true;
 
+    }
 }
