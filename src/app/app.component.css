@@ -1,3 +1,15 @@
+.cover img,
+.home img,
+.divider {
+  width: 100%;
+  height: 100%;
+}
+
+.img-class {
+  width: 100%;
+  height: 170px;
+}
+
 .home-content{
   /* width: 1280px; */
   /* height: 768px; */
@@ -13,7 +25,7 @@
 }
 
 .hexSchoolArea {
-  margin-top: 14%;
+  padding-top: 4%;
 }
 
 .home {
@@ -129,6 +141,17 @@
   /* height: 96px; */
 }
 
+.pThreeText {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 65.26px;
+
+  color: #3C221B;
+  margin: 2% 0;
+}
+
 .pText {
   font-family: 'Noto Sans TC';
   font-style: normal;
@@ -137,6 +160,7 @@
   line-height: 41px;
 
   color: #3C221B;
+  margin: 2% 0;
 }
 
 .main-nav {
@@ -155,6 +179,14 @@
 
 .main-nav li img {
   width: 80%;
+}
+
+.main-nav li:nth-child(1) {
+  margin-top: 1%;
+}
+
+.main-nav li:nth-child(2) {
+  margin-top: 1%;
 }
 
 .brTitle {
@@ -226,6 +258,7 @@
   text-align: center;
 
   color: #951205;
+  cursor: pointer;
 }
 
 
@@ -270,6 +303,42 @@
   color: var(--red-color);
 } */
 
+.content .mouse {
+  width: 3rem;
+  height: 4.4rem;
+  border: 2px solid black;
+  border-radius: 12px;
+  position: absolute;
+  right: 6%;
+  bottom: 12%;
+  opacity: 0;
+}
+
+.content .mouse .line,
+.cover-mouse .line {
+  height: 14px;
+  border: 1px solid #000000;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content .mouse .text,
+.cover-mouse .text {
+  position: absolute;
+  bottom: -80%;
+  left: 50%;
+  text-align: center;
+  width: 80px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  transform: translateX(-50%);
+}
+
 
 /************live sytle start******************/
 
@@ -295,9 +364,9 @@
   margin-top: 3.2rem;
   text-align: center;
   /* max-width: 522px; */
-  max-width: 416px;
+  max-width: 578px;
   height: 738.5px;
-  /* flex-basis: 48%; */
+  cursor: pointer;
 }
 
 #live .person .item .time {
@@ -329,33 +398,31 @@
   font-family: "Noto Serif TC";
   font-style: normal;
   color: var(--borwn-color);
-  line-height: 3rem;
+  line-height: 6.2rem;
   font-weight: 900;
 }
 
 #live .person .item:nth-child(1) .describe {
-  font-size: 3.2rem;
+  font-size: 5.7rem;
 }
 
 #live .person .item:nth-child(2) .describe {
-  font-size: 3.2rem;
-  /* white-space: nowrap; */
-  /* margin-top: 4%; */
+  font-size: 4.9rem;
 }
 
 #live .person .item:nth-child(3) .describe {
-  font-size: 3.2rem;
+  font-size: 4.6rem;
 }
 
 #live .person .item:nth-child(4) .describe {
-  font-size: 3.2rem;
+  font-size: 4.4rem;
 }
 
 #live .item .time {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  font-size: 2.4rem;
+  font-size: 3.5rem;
   line-height: 6.7rem;
   color: var(--borwn-color);
 }
@@ -368,7 +435,7 @@
   height: 66px;
   position: absolute;
   left: 50%;
-  bottom: 14.12%;
+  bottom: 12.12%;
   transform: translateX(-50%);
 }
 
@@ -376,8 +443,8 @@
   font-family: "Noto Sans TC";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
   /* or 130% */
   color: var(--white-color);
   text-align: center;
@@ -386,15 +453,11 @@
 
 /* nav content */
 
-.content-left {
-  margin-left: -58%;
-}
-
 .home .content {
   background: url("../assets/images/backgroundVendetta.png") no-repeat;
   background-size: 100% 100%;
   /* max-width: 1213px; */
-  max-width: 80vw;
+  max-width: 60vw;
   height: 100%;
   margin: 0 auto;
   padding: 5.1rem 5.9rem 8.5rem;
@@ -404,13 +467,13 @@
 }
 
 .home .content-left .title h1 {
-  white-space: nowrap;
-  margin-left: -2%;
+  /* white-space: nowrap;
+  margin-left: -2%; */
 
   font-family: "AR JULIAN";
   font-style: normal;
   font-weight: 5;
-  font-size: 8rem;
+  font-size: 8.6rem;
   line-height: 9rem;
   color: var(--borwn-color);
 }
@@ -480,6 +543,14 @@
   line-height: 2.246rem;
 }
 
+.content .pic-task {
+  position: absolute;
+  width: 380px;
+  top: -5%;
+  right: -1%;
+  opacity: 0;
+}
+
 .content .pic-face {
   position: absolute;
   bottom: -0.5rem;
@@ -497,7 +568,7 @@
   font-family: "AR JULIAN";
   font-style: normal;
   font-weight: 5;
-  font-size: 1.8rem;
+  font-size: 3.2rem;
   line-height: 3.1rem;
   color: var(--white-color);
 }
@@ -506,7 +577,7 @@
   font-family: "AR JULIAN";
   font-style: normal;
   font-weight: 5;
-  font-size: 3.6rem;
+  font-size: 4.8rem;
   line-height: 6.289rem;
   color: var(--red-color);
 }
