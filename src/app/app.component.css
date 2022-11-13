@@ -13,7 +13,7 @@
 .home-content {
   /* width: 1280px; */
   /* height: 768px; */
-  background-image: url('/assets/images/background.jpg');
+  background-image: url('/the-f2e-fourth-week1/assets/images/background.jpg');
 
   /* background-repeat:repeat-x; */
 }
@@ -600,15 +600,15 @@
   }
 
   .parallaxScrollingArea img:nth-child(1) {
-    content: url('/assets/images/m-parallaxScrolling1.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-parallaxScrolling1.png');
   }
 
   .parallaxScrollingArea img:nth-child(2) {
-    content: url('/assets/images/m-parallaxScrolling2.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-parallaxScrolling2.png');
   }
 
   .parallaxScrollingArea img:nth-child(3) {
-    content: url('/assets/images/m-parallaxScrolling3.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-parallaxScrolling3.png');
   }
 
   .parallaxScrollingArea img {
@@ -624,15 +624,15 @@
   }
 
   #group img {
-    content: url('/assets/images/m-groupPrize.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-groupPrize.png');
   }
 
   #person img {
-    content: url('/assets/images/m-personPrize.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-personPrize.png');
   }
 
   #shortlisted img {
-    content: url('/assets/images/m-shortlistedPrize.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-shortlistedPrize.png');
   }
 
   .brTitle img {
@@ -640,7 +640,7 @@
   }
 
   #hexSchool img {
-    content: url('/assets/images/m-HexSchool.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-HexSchool.png');
   }
 
   .goodThing {
@@ -715,7 +715,7 @@
   }
 
   .pic-face img {
-    content: url('/assets/images/m-vendetta.png');
+    content: url('/the-f2e-fourth-week1/assets/images/m-vendetta.png');
     width: 441px;
     /* height: 369px; */
   }
