@@ -59,3 +59,37 @@
   color: #FFFFFF;
   text-align: center;
 }
+
+@media only screen and (max-width: 864px) {
+  /* .page-footer {
+    width: 284%;
+  } */
+  .main-nav {
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .footerText{
+
+    padding-top: 2%;
+
+  }
+
+
+  .main-nav li img {
+    width: 100%;
+  }
+
+  .sponsorCorp {
+    font-size: 30px;
+  }
+
+  .footerText a {
+    color: #AF9D5F;
+  }
+
+}
+
+@media only screen and (max-width: 769px) {
+
+}

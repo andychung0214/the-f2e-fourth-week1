@@ -64,3 +64,7 @@
 
   /* padding: 5.63px 25px; */
 }
+
+@media only screen and (max-width: 864px) {}
+
+@media only screen and (max-width: 769px) {}

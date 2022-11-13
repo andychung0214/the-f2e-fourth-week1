@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { gsap } from "gsap";;
-import ScrollTrigger from 'gsap/ScrollTrigger'
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,8 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 })
 export class AppComponent implements OnInit {
   title = 'the-f2e-fourth-week1';
+  public screenWidth: any;
+  public screenHeight: any;
   loadingOpts: any;
   isDisplay = false;
   menu: any;
@@ -16,13 +18,17 @@ export class AppComponent implements OnInit {
   sideBar: any;
   mousemoveTimeline: any;
   scrollCover: any;
-  scrollFace: any
+  scrollFace: any;
+  descText = '年度最強合作，三大關卡來襲';
 
   constructor() {
     this.menu = window.document.querySelector('.logo');
   }
 
   ngOnInit(): void {
+    this.screenWidth = window.innerWidth;
+    this.screenHeight = window.innerHeight;
+
     gsap.registerPlugin(ScrollTrigger);
 
     this.mousemoveTimeline = gsap.timeline({ repeat: -1 });
@@ -56,9 +62,15 @@ export class AppComponent implements OnInit {
     this.scrollCover.to(".pic-face", { yPercent: -110 }, "<")
     this.scrollCover.to(".pic-task", { opacity: 1, ease: "expo" })
     this.scrollCover.to(".mouse", { opacity: 1, ease: "expo" }, "<");
+
+    if (this.screenWidth <= 864) {
+      this.descText = "年度最強合作 三大關卡來襲";
+    }
+
   }
   prizeClick() {
     this.isDisplay = true;
+
 
   }
 

@@ -6,11 +6,11 @@
 }
 
 .img-class {
-  width: 100%;
+  max-width: 100%;
   height: 170px;
 }
 
-.home-content{
+.home-content {
   /* width: 1280px; */
   /* height: 768px; */
   background-image: url('/assets/images/background.jpg');
@@ -109,8 +109,8 @@
 
 .pdfArea {
   position: relative;
-  left:32%;
-  top:-12%;
+  left: 32%;
+  top: -12%;
   z-index: 99;
 
 }
@@ -123,13 +123,13 @@
   top: 8%;
 }
 
-.floatArea{
+.floatArea {
   position: relative;
   z-index: 98;
 
 }
 
-.raceArea{
+.raceArea {
   display: flex;
   flex-direction: column;
 }
@@ -449,6 +449,7 @@
   color: var(--white-color);
   text-align: center;
 }
+
 /************live sytle end******************/
 
 /* nav content */
@@ -495,7 +496,7 @@
   margin-left: 1.6rem;
 }
 
-.home .content-left > p:nth-child(2) {
+.home .content-left>p:nth-child(2) {
   font-family: "Noto Serif TC";
   font-style: normal;
   font-weight: 900;
@@ -506,7 +507,7 @@
   margin-top: 3.6rem;
 }
 
-.home .content-left > p:nth-child(3) {
+.home .content-left>p:nth-child(3) {
   font-family: "Noto Sans TC";
   font-style: normal;
   font-weight: 400;
@@ -580,4 +581,214 @@
   font-size: 4.8rem;
   line-height: 6.289rem;
   color: var(--red-color);
+}
+
+@media only screen and (max-width: 864px) {
+
+  .home {
+    /* height: 100%; */
+    /* background: url("../assets/images/newspaperVendetta.png") no-repeat center; */
+    background-size: 400% 400%;
+    /* padding: 10.1rem 4rem 2.2rem; */
+    /* position: relative;  */
+    /* max-width: 400%; */
+  }
+
+  .home-content {
+    /* width: 156%; */
+    overflow-x: hidden;
+  }
+
+  .parallaxScrollingArea img:nth-child(1) {
+    content: url('/assets/images/m-parallaxScrolling1.png');
+  }
+
+  .parallaxScrollingArea img:nth-child(2) {
+    content: url('/assets/images/m-parallaxScrolling2.png');
+  }
+
+  .parallaxScrollingArea img:nth-child(3) {
+    content: url('/assets/images/m-parallaxScrolling3.png');
+  }
+
+  .parallaxScrollingArea img {
+    width: 100%;
+  }
+
+  .prize-nav {
+    flex-direction: column;
+  }
+
+  .main-nav {
+    flex-direction: column;
+  }
+
+  #group img {
+    content: url('/assets/images/m-groupPrize.png');
+  }
+
+  #person img {
+    content: url('/assets/images/m-personPrize.png');
+  }
+
+  #shortlisted img {
+    content: url('/assets/images/m-shortlistedPrize.png');
+  }
+
+  .brTitle img {
+    height: 114px;
+  }
+
+  #hexSchool img {
+    content: url('/assets/images/m-HexSchool.png');
+  }
+
+  .goodThing {
+    font-size: 52px;
+  }
+
+  .main-nav li {
+    margin-bottom: 8%;
+  }
+
+  .raceArea .pText {
+    font-size: 24px;
+  }
+
+  .raceArea img:nth-child(1) {
+    width: 97%;
+  }
+
+  .raceArea img:nth-child(2) {
+    width: 97%;
+  }
+
+  #live .person .item {
+    width: 343px;
+    height: 485px;
+  }
+
+  #live .person .item:nth-child(1) .describe {
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 36px;
+  }
+
+  #live .person .item:nth-child(2) .describe {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  #live .person .item:nth-child(3) .describe {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  #live .person .item:nth-child(4) .describe {
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 36px;
+  }
+
+  .home .content-left>p:nth-child(2) {
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 156%;
+    margin-left: -16%;
+  }
+
+  .home .content-left>p:nth-child(3) {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* margin-top: 156%; */
+    margin-left: -8%;
+  }
+
+  .content .pic-face {
+    left: 74%;
+
+  }
+
+  .pic-face img {
+    content: url('/assets/images/m-vendetta.png');
+    width: 441px;
+    /* height: 369px; */
+  }
+
+  .home {
+    padding: 0%;
+  }
+
+  .home .content {
+    background: url("../assets/images/m-backgroundVendetta.png");
+    /* width: 100vw;
+    height: 100vh;
+    z-index: 200; */
+    /* height: 375px; */
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 100vw;
+    /* height: 375px; */
+  }
+
+  .content .title {
+    white-space: nowrap;
+  }
+
+  .home .content-left .title h1 {
+    line-height: 4rem;
+    font-weight: 800;
+    font-size: 61px;
+    margin-left: -14%;
+  }
+
+  .hexSchoolArea {
+    padding-top: 84%;
+  }
+
+  .content .pic-task {
+    top: 15%;
+  }
+
+  .content .pic-face .text {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .content .pic-face .text .money {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .finishPrize {
+    font-size: 30px;
+    line-height: 43px;
+  }
+
+  .pThreeText {
+    content: '1234';
+  }
+
+}
+
+@media only screen and (max-width: 769px) {
+  .home-content {
+    /* width: 248%; */
+    overflow-x: hidden;
+  }
+
+  .brTitle {
+    margin: 2% -16%;
+  }
+
+  .parallaxScrollingArea img {
+    max-width: 100%;
+  }
 }
