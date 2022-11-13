@@ -1,16 +1,14 @@
 # TheF2e4thWeek1
 
-此專案為參加[六角學院](https://www.hexschool.com/)所舉辦的[The F2E](https://2021.thef2e.com/)而生，至[作品列表](https://2022.thef2e.com/works)，採用所喜愛的設計稿，
+此專案為參加[六角學院](https://www.hexschool.com/)所舉辦的[The F2E](https://2022.thef2e.com/)而生，至[作品列表](https://2022.thef2e.com/works)，採用所喜愛的設計稿，
 
-主題為[「The F2E 活動網站設計」](https://andychung0214.github.io/the-f2e-week1/#/travel-list)
+主題為[「The F2E 活動網站設計」](https://2022.thef2e.com/news/week1)
 
 ## 使用技術
 
 - Angular
-- Scss
-- AJAX
+- GreenSock
 - RWD
-- Angular Material
 - CSS Flex
 
 ## 採用設計稿資訊
@@ -21,8 +19,8 @@
 ## 個人投稿資訊
 
 - 個人資訊：https://andychung0214.github.io/about/
-- 投稿位址：https://2021.thef2e.com/users/62964328196105836
+- 投稿位址：https://2022.thef2e.com/users/12061549261446456270
 
 ## Demo
 
-https://andychung0214.github.io/the-f2e-week1/#/travel-list
+https://visionary-cuchufli-bbb159.netlify.app/
