@@ -30,7 +30,7 @@
 
 .home {
   height: 100%;
-  background: url("../assets/images/newspaperVendetta.png") no-repeat center;
+  background: url("/the-f2e-fourth-week1/assets/images/newspaperVendetta.png") no-repeat center;
   background-size: 100% 100%;
   padding: 10.1rem 4rem 2.2rem;
   position: relative;
@@ -375,22 +375,22 @@
 
 #live .person .item:nth-child(1) {
   padding-top: 47.68px;
-  background-image: url("../assets/images/livePerson2.gif");
+  background-image: url("/the-f2e-fourth-week1/assets/images/livePerson2.gif");
   background-size: 100% 100%;
 }
 
 #live .person .item:nth-child(2) {
-  background-image: url("../assets/images/livePerson4.gif");
+  background-image: url("/the-f2e-fourth-week1/assets/images/livePerson4.gif");
   background-size: 100% 100%;
 }
 
 #live .person .item:nth-child(3) {
-  background-image: url("../assets/images/livePerson3.gif");
+  background-image: url("/the-f2e-fourth-week1/assets/images/livePerson3.gif");
   background-size: 100% 100%;
 }
 
 #live .person .item:nth-child(4) {
-  background-image: url("../assets/images/livePerson1.gif");
+  background-image: url("/the-f2e-fourth-week1/assets/images/livePerson1.gif");
   background-size: 100% 100%;
 }
 
@@ -428,7 +428,7 @@
 }
 
 #live .item .name {
-  background-image: url("../assets/images/person-name-bg.png");
+  background-image: url("/the-f2e-fourth-week1/assets/images/person-name-bg.png");
   background-size: 100% 100%;
   padding: 0.7rem 2rem 0.7rem 2rem;
   width: 259px;
@@ -455,7 +455,7 @@
 /* nav content */
 
 .home .content {
-  background: url("../assets/images/backgroundVendetta.png") no-repeat;
+  background: url("/the-f2e-fourth-week1/assets/images/backgroundVendetta.png") no-repeat;
   background-size: 100% 100%;
   /* max-width: 1213px; */
   max-width: 60vw;
@@ -587,7 +587,7 @@
 
   .home {
     /* height: 100%; */
-    /* background: url("../assets/images/newspaperVendetta.png") no-repeat center; */
+    /* background: url("/the-f2e-fourth-week1/assets/images/newspaperVendetta.png") no-repeat center; */
     background-size: 400% 400%;
     /* padding: 10.1rem 4rem 2.2rem; */
     /* position: relative;  */
@@ -725,7 +725,7 @@
   }
 
   .home .content {
-    background: url("../assets/images/m-backgroundVendetta.png");
+    background: url("/the-f2e-fourth-week1/assets/images/m-backgroundVendetta.png");
     /* width: 100vw;
     height: 100vh;
     z-index: 200; */
